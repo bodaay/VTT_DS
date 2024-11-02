@@ -144,6 +144,7 @@ def download_audio_and_metadata(youtube_url, video_id):
         'like_count': metadata.get('like_count'),
         'channel_id': metadata.get('channel_id'),
         'channel_url': metadata.get('channel_url'),
+        'webpage_url': metadata.get('webpage_url'),  # Added this line
         'tags': metadata.get('tags'),
         'categories': metadata.get('categories'),
         # Add any other metadata fields you consider important
